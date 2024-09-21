@@ -14,6 +14,7 @@
 - ProductList
 
 --------------------------------------------------------------------------------------------------------------
+private void FillDataList() {
 
 Api_Interface service = ApiServiceCall.getClient(this).create(Api_Interface.class);
 Observable<ProductMasterListResponse> DataList = service.ProductMasterGetData();
@@ -24,7 +25,7 @@ DataList.subscribeOn(Schedulers.io())
                     public void onSubscribe(Disposable d) {
                         //When API Call Start
                     }
-
+                    
                     @Override
                     public void onNext(ProductMasterListResponse productMasterListResponse) {
                         //When API Response is Success
@@ -57,3 +58,4 @@ DataList.subscribeOn(Schedulers.io())
                         WaitDialog.dismiss();
                     }
                 });
+}
