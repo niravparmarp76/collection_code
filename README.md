@@ -11,12 +11,12 @@
 **Step : 1** Add dependencies
 
 // retrofit
-implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-implementation 'io.reactivex.rxjava2:rxjava:2.2.13'
-implementation 'com.squareup.retrofit2:retrofit:2.8.1'
-implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
-implementation 'com.squareup.retrofit2:converter-gson:2.8.1'
-implementation 'com.squareup.okhttp3:logging-interceptor:4.4.1'
+implementation 'io.reactivex.rxjava2:rxandroid:2.1.1' < br / >
+implementation 'io.reactivex.rxjava2:rxjava:2.2.13' < br / >
+implementation 'com.squareup.retrofit2:retrofit:2.8.1' < br / >
+implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1' < br / >
+implementation 'com.squareup.retrofit2:converter-gson:2.8.1' < br / >
+implementation 'com.squareup.okhttp3:logging-interceptor:4.4.1' < br / >
 
 **Step : 2** Create above folder structure
 
